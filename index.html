@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Popup with Drag Animation</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <button id="openPopup">Open Popup</button>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Drag and Drop Elements</h2>
+            <div id="box" class="box">
+                <div class="draggable" draggable="true">Item 1</div>
+                <div class="draggable" draggable="true">Item 2</div>
+                <div class="draggable" draggable="true">Item 3</div>
+                <div class="draggable" draggable="true">Item 4</div>
+                <div class="draggable" draggable="true">Item 5</div>
+            </div>
+            <div id="sequenceLog">Current sequence: Item 1, Item 2, Item 3, Item 4, Item 5</div>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
